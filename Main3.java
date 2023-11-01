@@ -49,7 +49,8 @@ class Student implements Mark{
                     marks[i] = mark;
                     average += mark;
                 }
-            } catch (NegativeMarkException | OutOfRangeException e) {
+            }   
+            catch (NegativeMarkException | OutOfRangeException e) {
                 System.out.println("Error: " + e.getMessage());
                 i--;  
             }
