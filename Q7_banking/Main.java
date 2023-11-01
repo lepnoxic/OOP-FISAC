@@ -30,7 +30,7 @@ class banking {
     }
 }
 
-class Main7 {
+class Main {
     public static void main(String args[]) {
         banking a = new banking();
         Scanner s = new Scanner(System.in);

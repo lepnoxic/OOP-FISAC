@@ -54,7 +54,7 @@ class SecondHalf extends Thread {
     }
 }
 
-public class Main6 {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n;

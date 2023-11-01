@@ -84,7 +84,7 @@ class Student implements Mark{
     }
 }
 
-public class Main3 {
+public class Main {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number of students: ");
