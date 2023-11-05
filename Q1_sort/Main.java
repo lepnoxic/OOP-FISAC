@@ -28,10 +28,6 @@ class Employee implements Comparable<Employee> {
         this.YoE = YoE;
     }
 
-    public int getYoE() {
-        return YoE;
-    }
-
     @Override
     public int compareTo(Employee other) {
         return Integer.compare(this.YoE, other.YoE);
@@ -50,10 +46,6 @@ class Student implements Comparable<Student> {
     public Student(String name, String grade) {
         this.name = name;
         this.grade = grade;
-    }
-
-    public String getGrade() {
-        return grade;
     }
 
     @Override
